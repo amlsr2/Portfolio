@@ -1,0 +1,12 @@
+{
+    "routes": [
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/src/main.jsx",
+            "dest": "/"
+        }
+    ]
+}

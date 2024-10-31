@@ -5,7 +5,7 @@
             "dest": "/"
         },
         {
-            "src": "/src/main.jsx",
+            "src": "/src",
             "dest": "/"
         }
     ]

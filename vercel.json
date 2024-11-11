@@ -1,15 +1,5 @@
 {
-<<<<<<< HEAD
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-=======
   "rewrites": [
->>>>>>> 39fd92b (new vercel again)
     {
       "src": "/(.*)",
       "dest": "/"

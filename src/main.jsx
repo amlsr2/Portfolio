@@ -11,7 +11,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import App from "./App.jsx";
 import "./index.css"; // jika ada file CSS global
 
 ReactDOM.createRoot(document.getElementById("root")).render(

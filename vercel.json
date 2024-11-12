@@ -1,5 +1,15 @@
 {
+<<<<<<< HEAD
   "rewrites": [
+=======
+  "builds": [
+    {
+      "src": "src/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+>>>>>>> bd0e02e685d8b943a47d6d89f90720fd31644093
     {
       "src": "/(.*)",
       "dest": "/"

@@ -1,18 +1,17 @@
 {
-<<<<<<< HEAD
-  "rewrites": [
-=======
   "builds": [
     {
-      "src": "src/index.js",
-      "use": "@vercel/node"
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
     }
   ],
   "routes": [
->>>>>>> bd0e02e685d8b943a47d6d89f90720fd31644093
     {
       "src": "/(.*)",
-      "dest": "/"
+      "dest": "/index.html"
     }
   ]
 }

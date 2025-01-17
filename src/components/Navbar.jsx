@@ -42,6 +42,9 @@ const Navbar = () => {
         <a href="https://www.instagram.com/wjmelly" id="instagram">
           <i data-feather="instagram"></i>
         </a>
+        <a href="https://bit.ly/Amelia_Sari_Portofolio" id="external-link">
+          <i data-feather="external-link"></i>
+        </a>
       </div>
 
       {/* social media new

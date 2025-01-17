@@ -68,12 +68,12 @@ const Technologies = () => {
 
         {/* 4 */}
         <motion.div
-          variants={iconVariants(2)}
+          variants={iconVariants(4)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaPython className="text-7xl text-blue-900" />
+          <SiJavascript className="text-7xl text-yellow-400" />
         </motion.div>
 
         {/* 5 */}
@@ -88,12 +88,12 @@ const Technologies = () => {
 
         {/* 6 */}
         <motion.div
-          variants={iconVariants(4)}
+          variants={iconVariants(2)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiJavascript className="text-7xl text-yellow-400" />
+          <FaPython className="text-7xl text-blue-900" />
         </motion.div>
       </motion.div>
     </div>

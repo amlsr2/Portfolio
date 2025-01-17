@@ -1,9 +1,3 @@
-// import project1 from "///D:/WEBSITE/portofolio/src/assets/projects/project-1.jpg";
-// import project2 from "///D:/WEBSITE/portofolio/src/assets/projects/project-2.jpg";
-// import project3 from "///D:/WEBSITE/portofolio/src/assets/projects/project-3.jpg";
-// import project4 from "///D:/WEBSITE/portofolio/src/assets/projects/project-4.jpg";
-// import project5 from "///D:/WEBSITE/portofolio/src/assets/projects/project-5.jpg";
-// import project6 from "///D:/WEBSITE/portofolio/src/assets/projects/project-6.png";
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
@@ -13,11 +7,7 @@ import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 
-
-
-// export const HERO_CONTENT = `Saya adalah lulusan Sarjana Ilmu Komputer dari Universitas Mercu Buana dengan minat di bidang teknologi dan pengembangan perangkat lunak, khususnya dalam frontend development, quality assurance dan Data Science. Selama masa studi, saya aktif terlibat dalam berbagai kegiatan kampus, termasuk menjadi sekretaris di Badan Eksekutif Mahasiswa. Pengalaman ini tidak hanya mengasah kemampuan komunikasi dan kerja sama dalam tim, tetapi juga meningkatkan disiplin diri. Saya juga berkesempatan untuk mengembangkan ilmu data analyst sebagai tugas akhir saya. Selain itu, saya memiliki pengalaman bekerja di mana saya fokus di bidang frontend development dan berperan sebagai quality assurance.`;
-
-// export const ABOUT_TEXT = `Saya adalah lulusan Sarjana Ilmu Komputer dari Universitas Mercu Buana dengan minat di bidang teknologi dan pengembangan perangkat lunak, khususnya dalam frontend development, quality assurance dan Data Science. Selama masa studi, saya aktif terlibat dalam berbagai kegiatan kampus, termasuk menjadi sekretaris di Badan Eksekutif Mahasiswa. Pengalaman ini tidak hanya mengasah kemampuan komunikasi dan kerja sama dalam tim, tetapi juga meningkatkan disiplin diri. Saya juga berkesempatan untuk mengembangkan ilmu data analyst sebagai tugas akhir saya. Selain itu, saya memiliki pengalaman bekerja di mana saya fokus di bidang frontend development dan berperan sebagai quality assurance.`;
+// export const HERO_CONTENT = `0`;
 
 export const ABOUT_TEXT = `Saya adalah lulusan Sarjana Ilmu Komputer dari Universitas Mercu Buana dengan minat di bidang teknologi, khususnya dalam Frontend Development dan Quality Assurance. Selama masa studi, saya memanfaatkan waktu luang untuk mendalami ilmu di bidang frontend development. Selama magang dan bekerja, saya berperan aktif dalam bekerja sama tim sekaligus berfokus pada pengembangan website dan juga peningkatan dalam pengalaman pengguna. Selain itu, saya aktif di berbagai kegiatan kampus, termasuk menjadi sekretaris di Badan Eksekutif Mahasiswa. Pengalaman ini tidak hanya mengasah kemampuan komunikasi dan kerja sama dalam tim, tetapi juga berpikir kritis dan meningkatkan disiplin diri.`;
 
@@ -64,25 +54,6 @@ export const EXPERIENCES = [
 ];
 
 export const ACTIVITIES = [
-  // {
-  //   year: "Jan 2023 – Feb 2023",
-  //   role: "Web Development",
-  //   company: "Universitas Mercu Buana",
-  //   description1: `• Bekerja sama dengan tim untuk merencanakan desain website e-commerce menggunakan bahasa PHP.`,
-  //   description2: `• Menggunakan MVC dan CRUD sebagai struktur dasar dalam pengembangan aplikasi.`,
-  //   description3: `• Merancang dan menyusun website dari desain front-end hingga implementasi back-end.`,
-  //   technologies: [
-  //     "PHP",
-  //     "CSS",
-  //     "Javascript",
-  //     "Codeigniter",
-  //     "XAMPP",
-  //     "SQL",
-  //     "Team Work",
-  //     "Analytical Thinking",
-  //     "Time Management",
-  //   ],
-  // },
   {
     year: "Sep 2022 - Sep 2023",
     role: "Sekretaris II",
@@ -99,31 +70,6 @@ export const ACTIVITIES = [
       "Time Management",
     ],
   },
-  // {
-  //   year: "Jan 2023 - Feb 2023",
-  //   role: "PKM",
-  //   company: "Universitas Mercu Buana",
-  //   description1: `• Bekerja sama dengan tim untuk meneliti penerapan ilmu pengetahuan dalam program kreativitas mahasiswa.`,
-  //   description2: `• Merancang dan menyusun rencana program secara sistematis dan terstruktur.`,
-  //   description3: `• Melakukan riset serta menentukan lokasi yang tepat untuk implementasi program.`,
-  //   technologies: [
-  //     "Word",
-  //     "Excel",
-  //     "Power Point",
-  //     "Team Work",
-  //     "Analytical Thinking",
-  //     "Time Management",
-  //   ],
-  // },
-  // {
-  //   year: "Nov 2023 - Des 2023",
-  //   role: "Data Science",
-  //   company: "Universitas Mercu Buana",
-  //   description1: `• Bekerja sama dengan tim untuk meneliti penerapan ilmu pengetahuan dalam program kreativitas mahasiswa.`,
-  //   description2: `• Merancang dan menyusun rencana program secara sistematis dan terstruktur.`,
-  //   description3: `• Melakukan riset serta menentukan lokasi yang tepat untuk implementasi program.`,
-  //   technologies: ["Word", "Excel", "Power Point", "CSV", "Google Colab"],
-  // },
 ];
 
 export const PROJECTS = [
@@ -143,7 +89,7 @@ export const PROJECTS = [
       "Analytical Thinking",
       "Time Management",
     ],
-    url: "https://amlsr2.github.io/Checkbox", // Tambahkan URL di sini
+    url: "https://amlsr2.github.io/Checkbox",
   },
   {
     title: "E-Commerce Website BagBigBug",
@@ -157,7 +103,7 @@ export const PROJECTS = [
       "Analytical Thinking",
       "Time Management",
     ],
-    url: "https://amlsr2.github.io/BagBigBug", // Tambahkan URL di sini
+    url: "https://amlsr2.github.io/BagBigBug",
   },
   {
     title: "Website Travel Agents",
@@ -171,7 +117,7 @@ export const PROJECTS = [
       "Analytical Thinking",
       "Time Management",
     ],
-    url: "https://revou-fundamental-course.github.io/11-nov-24-amlsr2", // Tambahkan URL di sini
+    url: "https://revou-fundamental-course.github.io/11-nov-24-amlsr2",
   },
   {
     title: "Data Science",
@@ -231,7 +177,6 @@ export const PROJECTS = [
       "Time Management",
     ],
   },
-
   {
     title: "Program Kreativitas Mahasiswa (PKM)",
     image: project5,
@@ -252,6 +197,6 @@ export const CONTACT = {
   phoneNo: "+62 8953-7203-9097",
   email: "ameliasari810@gmail.com",
   linkedin: "www.linkedin.com/in/ameliasari02",
-  canva: "https://bit.ly/Amelia_Sari_Portofolio",
+  canva: "https://www.canva.com/design/DAGbBXNmk8Q/nSXH5Vylfujc2CAgIaFAWg/view?utm_content=DAGbBXNmk8Q&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=heb8ba666b2",
 };
 

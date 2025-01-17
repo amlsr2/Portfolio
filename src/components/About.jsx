@@ -9,7 +9,7 @@ const About = () => {
       <motion.h2
         whileInView={{ opacity: 1, scale: 1 }}
         initial={{ opacity: 0, scale: 0.8 }}
-        transition={{ duration: 0.6, ease: "easeOut", delay: 0 }} // No delay
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0 }}
         viewport={{ once: false, amount: 0.5 }}
         className="my-10 text-center text-4xl"
       >
@@ -39,7 +39,7 @@ const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            {/* di p ditambahin text-justify */}
+
             <p className="max-w-xl py-12 px-5 text-justify">{ABOUT_TEXT}</p>
           </div>
         </motion.div>

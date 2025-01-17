@@ -15,7 +15,7 @@ const Activity = () => {
       <div>
         {ACTIVITIES.map((activity, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            {/* Tahun Section */}
+
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
@@ -25,7 +25,6 @@ const Activity = () => {
               <p className="mb-2 text-sm text-neutral-400">{activity.year}</p>
             </motion.div>
 
-            {/* Deskripsi dan Badge Section */}
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
@@ -39,7 +38,6 @@ const Activity = () => {
                 </span>
               </h6>
 
-              {/* Deskripsi text-justify dengan spasi vertikal */}
               <p className="mb-4 text-neutral-400 text-justify">
                 {activity.description1}
               </p>
@@ -50,7 +48,6 @@ const Activity = () => {
                 {activity.description3}
               </p>
 
-              {/* Badge Container */}
               <div className="mt-4 flex flex-wrap gap-2">
                 {activity.technologies.map((tech, index) => (
                   <span

@@ -2,30 +2,18 @@ import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
 
 const Contact = () => {
-
-
-
-
-
-  // Fungsi untuk menyalin nomor telepon ke clipboard
   const copyPhoneNumber = () => {
     navigator.clipboard.writeText(CONTACT.phoneNo);
     alert("Nomor telepon telah disalin!");
   };
 
-  // Fungsi untuk membuka aplikasi email
   const sendEmail = () => {
     window.location.href = `mailto:${CONTACT.email}`;
   };
 
-  // Fungsi untuk membuka LinkedIn atau Canva di tab baru
   const openLink = (url) => {
     window.open(url, "_blank");
   };
-
-
-
-
 
   return (
     <div id="contact" className="border-b border-neutral-900 pt-20 pb-20">
@@ -38,53 +26,7 @@ const Contact = () => {
       >
         Get In Touch
       </motion.h2>
-
-      {/* <div className="text-center tracking-tighter">
-        <motion.p
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 0.4 }}
-          className="my-4 text-center"
-        >
-          {CONTACT.phoneNo}
-        </motion.p>
-
-        <motion.p
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 0.4 }}
-          className="my-4 text-center"
-        >
-          {CONTACT.email}
-        </motion.p>
-
-        <motion.p
-          href="https://www.linkedin.com/in/ameliasari02"
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 0 }}
-          transition={{ duration: 0.4 }}
-          className="my-4 text-center"
-        >
-          {CONTACT.linkedin}
-        </motion.p>
-
-        <motion.p
-          href="https://bit.ly/Amelia_Sari_Portofolio"
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 0 }}
-          transition={{ duration: 0.4 }}
-          className="my-4 text-center"
-        >
-          {CONTACT.canva}
-        </motion.p>
-      </div> */}
-
-
-
-
-
-<div className="text-center tracking-tighter">
-        {/* Nomor Telepon, bisa disalin */}
+    <div className="text-center tracking-tighter">
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
@@ -95,7 +37,6 @@ const Contact = () => {
           {CONTACT.phoneNo}
         </motion.p>
 
-        {/* Email, membuka email client */}
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
@@ -106,7 +47,6 @@ const Contact = () => {
           {CONTACT.email}
         </motion.p>
 
-        {/* LinkedIn, membuka link LinkedIn */}
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 0 }}
@@ -117,7 +57,6 @@ const Contact = () => {
           Amelia Sari - Linkedin
         </motion.p>
 
-        {/* Portofolio Canva, membuka link Canva */}
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 0 }}
@@ -128,11 +67,6 @@ const Contact = () => {
           Amelia Sari - Canva Portofolio
         </motion.p>
       </div>
-
-
-
-
-
     </div>
   );
 };

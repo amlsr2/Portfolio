@@ -25,7 +25,6 @@ const Experience = () => {
               <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
             </motion.div>
 
-            {/* Bagian Deskripsi dan Badge */}
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
@@ -39,7 +38,6 @@ const Experience = () => {
                 </span>
               </h6>
 
-              {/* Deskripsi dengan text-justify */}
               <div className="space-y-4">
                 <p className="text-neutral-400 text-justify">
                   {experience.description1}
@@ -52,7 +50,6 @@ const Experience = () => {
                 </p>
               </div>
 
-              {/* Teknologi / Skills Badge */}
               <div className="mt-4 flex flex-wrap gap-2">
                 {experience.technologies.map((tech, index) => (
                   <span

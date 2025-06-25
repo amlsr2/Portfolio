@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Experience = () => {
   return (
-    <div id="experience" className="border-b border-neutral-900 pt-20 pb-20">
+    <div id="experience" className="border-b border-neutral-900 pt-20 pb-40">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -54,7 +54,7 @@ const Experience = () => {
                 {experience.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-600 whitespace-nowrap"
+                    className="rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 whitespace-nowrap"
                   >
                     {tech}
                   </span>

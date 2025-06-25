@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div id="hero" className="text-center tracking-tighter mt-[12rem] mb-[12rem]">
+    <div
+      id="hero"
+      className="text-center tracking-tighter mt-[12rem] mb-[12rem] pt-1"
+    >
       <motion.h1
         whileInView={{ opacity: 1, scale: 1 }}
         initial={{ opacity: 0, scale: 0.8 }}

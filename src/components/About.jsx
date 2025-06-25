@@ -4,8 +4,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div id="about" className="border-b border-neutral-900 pt-10 pb-40">
-
+    <div id="about" className="border-b border-neutral-900 pt-28 pb-40">
       <motion.h2
         whileInView={{ opacity: 1, scale: 1 }}
         initial={{ opacity: 0, scale: 0.8 }}
@@ -39,7 +38,6 @@ const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-
             <p className="max-w-xl py-12 px-5 text-justify">{ABOUT_TEXT}</p>
           </div>
         </motion.div>

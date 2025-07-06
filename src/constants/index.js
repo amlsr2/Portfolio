@@ -223,7 +223,7 @@ export const PROJECTS = [
       "Analytical Thinking",
       "Time Management",
     ],
-    url: "https://amlsr2.github.io/BagBigBug",
+    url: "https://s.id/BagBigBug",
   },
   {
     title: "Website Travel Agents",

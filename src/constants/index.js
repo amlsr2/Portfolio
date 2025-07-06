@@ -192,6 +192,21 @@ export const PROJECTS = [
     url: "https://s.id/AmeliaSari_TestCase_Saucedemo",
   },
   {
+    title: "E-Commerce Website BagBigBug",
+    image: project7,
+    description:
+      // "Proyek front-end website E-Commerce, website ini hanya menampilkan UI. Saya membuat website responsif ini menggunakan CSS dan JavaScript. Tujuan dari pembuatan website ini adalah untuk meningkatkan keterampilan saya dalam pengembangan website dan memperdalam peran saya sebagai frontend developer.",
+      "This E-Commerce front-end website project only displays the UI. I created this responsive website using CSS and JavaScript. The purpose of this project was to improve my web development skills and deepen my role as a frontend developer.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Analytical Thinking",
+      "Time Management",
+    ],
+    url: "https://bagbigbug.netlify.app",
+  },
+  {
     title: "E-Commerce Website NASTRO Photo",
     image: project1,
     description:
@@ -209,21 +224,6 @@ export const PROJECTS = [
       "Time Management",
     ],
     url: "https://sites.google.com/view/amelia-sari-nastro-photo/beranda",
-  },
-  {
-    title: "E-Commerce Website BagBigBug",
-    image: project7,
-    description:
-      // "Proyek front-end website E-Commerce, website ini hanya menampilkan UI. Saya membuat website responsif ini menggunakan CSS dan JavaScript. Tujuan dari pembuatan website ini adalah untuk meningkatkan keterampilan saya dalam pengembangan website dan memperdalam peran saya sebagai frontend developer.",
-      "This E-Commerce front-end website project only displays the UI. I created this responsive website using CSS and JavaScript. The purpose of this project was to improve my web development skills and deepen my role as a frontend developer.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Analytical Thinking",
-      "Time Management",
-    ],
-    url: "https://s.id/BagBigBug",
   },
   {
     title: "Website Travel Agents",

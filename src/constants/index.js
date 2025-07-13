@@ -196,7 +196,7 @@ export const PROJECTS = [
     image: project7,
     description:
       // "Proyek front-end website E-Commerce, website ini hanya menampilkan UI. Saya membuat website responsif ini menggunakan CSS dan JavaScript. Tujuan dari pembuatan website ini adalah untuk meningkatkan keterampilan saya dalam pengembangan website dan memperdalam peran saya sebagai frontend developer.",
-      "This E-Commerce front-end website project only displays the UI. I created this responsive website using CSS and JavaScript. The purpose of this project was to improve my web development skills and deepen my role as a frontend developer.",
+      "This E-Commerce version 1.0, front-end website project only displays the UI. I created this responsive website using CSS and JavaScript. The purpose of this project was to improve my web development skills and deepen my role as a frontend developer.",
     technologies: [
       "HTML",
       "CSS",
@@ -204,7 +204,22 @@ export const PROJECTS = [
       "Analytical Thinking",
       "Time Management",
     ],
-    url: "https://bagbigbug.netlify.app",
+    url: "https://bagbigbug1.netlify.app",
+  },
+  {
+    title: "E-Commerce Website BagBigBug",
+    image: project7,
+    description:
+      // "Proyek front-end website E-Commerce, website ini hanya menampilkan UI. Saya membuat website responsif ini menggunakan CSS dan JavaScript. Tujuan dari pembuatan website ini adalah untuk meningkatkan keterampilan saya dalam pengembangan website dan memperdalam peran saya sebagai frontend developer.",
+      "This E-Commerce version 1.2, front-end website project only displays the UI. I created this responsive website using CSS and JavaScript. The purpose of this project was to improve my web development skills and deepen my role as a frontend developer.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Analytical Thinking",
+      "Time Management",
+    ],
+    url: "https://bagbigbug2.netlify.app",
   },
   {
     title: "E-Commerce Website NASTRO Photo",

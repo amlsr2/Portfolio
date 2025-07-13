@@ -192,7 +192,7 @@ export const PROJECTS = [
     url: "https://s.id/AmeliaSari_TestCase_Saucedemo",
   },
   {
-    title: "E-Commerce Website BagBigBug",
+    title: "E-Commerce Website BagBigBug 1.0",
     image: project7,
     description:
       // "Proyek front-end website E-Commerce, website ini hanya menampilkan UI. Saya membuat website responsif ini menggunakan CSS dan JavaScript. Tujuan dari pembuatan website ini adalah untuk meningkatkan keterampilan saya dalam pengembangan website dan memperdalam peran saya sebagai frontend developer.",
@@ -207,7 +207,7 @@ export const PROJECTS = [
     url: "https://bagbigbug1.netlify.app",
   },
   {
-    title: "E-Commerce Website BagBigBug",
+    title: "E-Commerce Website BagBigBug 1.2",
     image: project7,
     description:
       // "Proyek front-end website E-Commerce, website ini hanya menampilkan UI. Saya membuat website responsif ini menggunakan CSS dan JavaScript. Tujuan dari pembuatan website ini adalah untuk meningkatkan keterampilan saya dalam pengembangan website dan memperdalam peran saya sebagai frontend developer.",

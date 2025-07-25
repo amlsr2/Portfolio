@@ -8,7 +8,7 @@ import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
 import project10 from "../assets/projects/project-10.png";
-import project10 from "../assets/projects/project-11.png";
+import project11 from "../assets/projects/project-11.png";
 
 // export const HERO_CONTENT = `0`;
 

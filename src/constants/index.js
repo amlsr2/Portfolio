@@ -8,6 +8,7 @@ import project7 from "../assets/projects/project-7.png";
 import project8 from "../assets/projects/project-8.png";
 import project9 from "../assets/projects/project-9.png";
 import project10 from "../assets/projects/project-10.png";
+import project10 from "../assets/projects/project-11.png";
 
 // export const HERO_CONTENT = `0`;
 
@@ -190,6 +191,14 @@ export const PROJECTS = [
       "In this project, I performed manual testing for the Saucedemo website by creating detailed test cases based on the expected behavior of features like login, adding/removing items from the cart, and checkout flow. The test cases were documented using Google Sheets, with clear test steps, expected results, actual results, and status. This helped ensure all key functionalities were working as intended. ",
     technologies: ["Excel", "Analytical Thinking", "Time Management"],
     url: "https://s.id/AmeliaSari_TestCase_Saucedemo",
+  },
+  {
+    title: "Test Case Rahulshettyacademy",
+    image: project11,
+    description:
+      "In this project, I performed manual testing for the Rahulshettyacademy website by creating detailed test cases based on the expected behavior of features like login, adding/removing items from the cart, and checkout flow. The test cases were documented using Google Sheets, with clear test steps, expected results, actual results, and status. This helped ensure all key functionalities were working as intended. ",
+    technologies: ["Excel", "Analytical Thinking", "Time Management"],
+    url: "https://s.id/AmeliaSari_TestCase_Rahulshettyacademy",
   },
   {
     title: "E-Commerce Website BagBigBug 1.0",
